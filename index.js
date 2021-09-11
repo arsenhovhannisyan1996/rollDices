@@ -9,6 +9,7 @@ const dice = document.querySelectorAll("img");
 const rollButton = document.getElementById("roll");
 
 function roll(){
+    console.log(roll)
     dice.forEach(function(die){
         die.classList.add("shake");
     });
